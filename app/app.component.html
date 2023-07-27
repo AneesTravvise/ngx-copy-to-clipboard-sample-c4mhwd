@@ -1,0 +1,16 @@
+<section class="section" id="text-content">
+  <h2>Copying data from textarea element asvef</h2>
+
+  <img
+    src="https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg"
+    width="300px"
+  />
+</section>
+
+<ngx-copy-to-clipboard
+  target="#text-content"
+  [action]="cut"
+  [success]="onSuccess"
+  [error]="onError"
+  >Copy</ngx-copy-to-clipboard
+>
